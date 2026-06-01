@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: sanjai ganth B
+* **Register Number**: 212224230244
+* **Date of Submission**: 27.05.2026
 
 ---
 
@@ -84,33 +84,48 @@ Test the database server by connecting to it locally or remotely and performing 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Logged in to AWS Management Console and opened Amazon EC2.
 
----
+2. Launched a new EC2 instance using Amazon Linux 2 AMI and selected an appropriate instance type.
+
+3. Created/selected a key pair and configured a security group for the instance.
+
+4. Modified the security group to allow SSH (Port 22) and database access (3306 for MySQL or 5432 for PostgreSQL).
+
+5. Connected to the EC2 instance using an SSH client such as PuTTY or terminal.
+
+6.Installed the database server (e.g., MySQL, MariaDB, or PostgreSQL) using Linux package manager commands.
+
+7. Started the database service and configured basic settings such as the root password and user privileges.
+
+8. Created a sample database and table and inserted a few records.
+
+9. Tested database connectivity by running basic SQL queries.
+ 
+
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1919" height="1069" alt="Screenshot 2026-03-08 150312" src="https://github.com/user-attachments/assets/e433954b-0362-4d1b-b650-bd7aff1bdd34" />
+
+<img width="1919" height="1068" alt="Screenshot 2026-03-08 150723" src="https://github.com/user-attachments/assets/93b2d716-5aa7-4746-b02d-eba40562f4f5" />
 
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1919" height="1070" alt="Screenshot 2026-03-08 152649" src="https://github.com/user-attachments/assets/c6b28a0d-8181-4d54-9fef-6a077a9ec673" />
 
----
+
+<img width="1920" height="1200" alt="Screenshot (255)" src="https://github.com/user-attachments/assets/2deddce9-5f36-4693-a445-13b13d57c99c" />
+
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="Screenshot (259)" src="https://github.com/user-attachments/assets/23a47c8c-17e7-46c6-9201-ba43df096b07" />
 
----
 
 ## Result
 
